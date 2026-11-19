@@ -1,0 +1,36 @@
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local environments
+.venv/
+venv/
+env/
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+*.swp
+
+# Secrets
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Runtime output written by the app (uploads, baseline fit jobs, logs)
+data/uploads/
+baselines/baseline_jobs/
+*.log
+*.part
+
+# Raw single-cell data never belongs in this repository
+*.h5ad
+*.h5mu
+
+# Packaged copies
+*.zip
+*.tar
+*.tar.gz

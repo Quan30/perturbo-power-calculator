@@ -1,0 +1,9 @@
+{
+  "source_url": "https://omnipathdb.org/interactions?datasets=collectri&genesymbols=yes&fields=sources,references,curation_effort&format=tsv",
+  "download_date": "2026-10-28",
+  "raw_sha256": "7463f119687fb37658f6ccf002b91df300ae255af6d332648d41f09c2c0710ba",
+  "raw_rows": 64516,
+  "membership_rows": 62404,
+  "regulators": 1201,
+  "policy": "Unique source/target gene-symbol pairs; remove blank identifiers and self edges; retain complex names intact; no evidence or sign filter. Manuscript-specific filtering not yet confirmed."
+}

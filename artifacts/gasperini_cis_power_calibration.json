@@ -1,0 +1,19 @@
+{
+  "model_type": "effective_critical_z",
+  "effective_critical_z": 4.272191700633306,
+  "effective_two_sided_alpha": 1.9356106198191248e-05,
+  "raw_analytical_critical_z": 1.959963984540054,
+  "dataset": "Gasperini",
+  "mode": "cis",
+  "fdr_threshold": 0.1,
+  "n_rows": 148176,
+  "n_unique_pairs": 7056,
+  "cross_validation_folds": 5,
+  "calibration_scope": {
+    "direction": "decrease",
+    "locus_type": "enhancer",
+    "effect_percent": [10.0, 25.0, 50.0],
+    "cells_per_guide": [100, 200, 500, 1000, 2000],
+    "depth_multiplier": [0.5, 1.0, 2.0]
+  }
+}

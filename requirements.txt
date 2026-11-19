@@ -1,0 +1,14 @@
+# Runtime dependencies of the PerTurbo power calculator app.
+# Fitting a new baseline additionally requires the PerTurbo model package
+# (see README, "Fit a baseline from your own data").
+streamlit>=1.50
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+matplotlib>=3.7
+pyarrow>=12
+anndata>=0.10
+mudata>=0.2
+h5py>=3.8
+hdf5plugin
+scikit-learn>=1.2

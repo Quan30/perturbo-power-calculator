@@ -1,0 +1,5 @@
+dataset,setting,method,mean_empirical_power,mean_predicted_power,mae,rmse,bias,correlation,predicted_powered_at_80,empirically_powered_at_80,true_positive_at_80,false_positive_at_80,false_negative_at_80,effective_z,fold_z_min,fold_z_max,replicates_per_design
+Gasperini,cis increase,Raw analytical,0.1618571429,0.4431286779,0.2813138354,0.3741749776,0.2812715351,0.7402912910,367,157,157,210,0,,,10
+Gasperini,cis increase,Calibrated cross-validated,0.1618571429,0.1628467018,0.0534689355,0.1216399991,0.0009895590,0.9255607309,141,157,125,16,32,4.106070,4.032196,4.167804,10
+Replogle,trans decrease,Raw analytical,0.2751142857,0.6526505958,0.3775613286,0.4883077466,0.3775363101,0.6693501723,1708,789,789,919,0,,,10
+Replogle,trans decrease,Calibrated cross-validated,0.2751142857,0.2773386929,0.0518781116,0.1119064090,0.0022244072,0.9607717056,697,789,670,27,119,4.720386,4.698242,4.743553,10

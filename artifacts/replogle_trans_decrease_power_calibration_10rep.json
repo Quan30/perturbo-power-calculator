@@ -1,0 +1,21 @@
+{
+  "model_type": "effective_critical_z",
+  "effective_critical_z": 4.720386,
+  "effective_two_sided_alpha": 0.00000235398,
+  "raw_analytical_critical_z": 1.959963984540054,
+  "dataset": "Replogle",
+  "mode": "trans",
+  "fdr_threshold": 0.1,
+  "n_rows": 3500,
+  "n_unique_pairs": 500,
+  "cross_validation_folds": 5,
+  "provisional": true,
+  "replicates_per_design": 10,
+  "calibration_scope": {
+    "direction": "decrease",
+    "locus_type": "target_program",
+    "effect_percent": [10.0, 25.0, 50.0],
+    "cells_per_guide": [100, 500, 2000],
+    "depth_multiplier": [0.5, 1.0, 2.0]
+  }
+}
